@@ -51,6 +51,7 @@ export default function SignUp() {
       navigate("/");
     } catch (error) {
       toast.error("Something went wrong with the registration");
+      console.log("SH - " + error);
     }
   }
 
